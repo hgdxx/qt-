@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DB_Data_Operation</class>
+ <widget class="QWidget" name="DB_Data_Operation">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>363</width>
+    <height>282</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="operation_insert_pushButton">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>0</y>
+     <width>89</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>新建信息</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="operation_delte_button">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>250</y>
+     <width>89</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>删除信息</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="operation_change_button">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>130</y>
+     <width>89</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>修改信息</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
